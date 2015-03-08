@@ -1,3 +1,5 @@
+set nocompatible
+filetype plugin indent on
 
 set nobackup
 set noswapfile
