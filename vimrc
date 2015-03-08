@@ -25,7 +25,8 @@ set hlsearch
 set encoding=utf-8
 set fencs=utf8,chinese,default
 
-set clipboard+=unnamed         " use sysetm clipboard
+" Use sysetm clipboard
+set clipboard+=unnamed
 
 syntax on
 set number
