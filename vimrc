@@ -98,20 +98,13 @@ vmap       <C-Q>  <Esc><C-Q>
 imap       <C-Q>  <Esc><C-Q>
 map        <A-F4> :qa!<CR>
 
-
-" 标签页
+" Tab nav
 nnoremap   <C-T>   :tabnew<CR>
 nnoremap   <C-H>   :tabprevious<CR>
 nnoremap   <C-L>   :tabnext<CR>
 imap       <C-T>   <Esc><C-T>
 imap       <C-H>   <Esc><C-H>
 imap       <C-L>   <Esc><C-L>
-noremap <A-h> <Esc>:call TabMove(-1)<CR>
-noremap <A-l> <Esc>:call TabMove(1)<CR>
-noremap <A-1> <Esc>1gt
-map <A-0> <Esc>:exec 'normal ' . tabpagenr('$') . 'gt'<CR>
-nnoremap   <C-W><C-H>  :call CloseLeft()<CR>
-nnoremap   <C-W><C-L>  :call CloseRight()<CR>
 
 " 复制粘贴
 nnoremap Y y$
