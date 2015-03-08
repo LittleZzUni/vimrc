@@ -136,6 +136,9 @@ inoremap <C-K> <C-O>D
 inoremap <C-B> <C-O>b
 inoremap <C-F> <C-O>w
 
+" Force saving files that require root permission
+cmap w!! w !sudo tee > /dev/null %
+
 
 """"" Command """"""
 
