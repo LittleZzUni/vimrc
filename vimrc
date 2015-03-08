@@ -129,14 +129,12 @@ nmap <Leader>sd <Leader>ss:%s///g<CR>
 vmap * y<Leader>ss
 vmap <Leader>sd *:%s///g<CR>
 
-" FIXME: Emacs like key binding
+" Emacs like key binding
 inoremap <C-A> <C-O>^
 inoremap <C-E> <C-O>$
-inoremap <C-J> <C-O>o
 inoremap <C-K> <C-O>D
 inoremap <C-B> <C-O>b
 inoremap <C-F> <C-O>w
-inoremap <C-R><Space> <C-R>"
 
 
 """"" Command """"""
