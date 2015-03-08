@@ -47,9 +47,6 @@ cabbrev h tab help
 
 let mapleader = ","
 
-noremap <C-C> <Esc>
-noremap <C-[> <C-C>
-
 nnoremap Q qa<Esc>
 nnoremap q @
 nnoremap qq @a
@@ -142,7 +139,7 @@ inoremap <C-F> <C-O>w
 inoremap <C-R><Space> <C-R>"
 
 
-"""""  Command """"""
+""""" Command """"""
 
 " JSON format
 command! PJSON :%!python -m json.tool
