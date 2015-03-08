@@ -148,10 +148,8 @@ inoremap <C-B> <C-O>b
 inoremap <C-F> <C-O>w
 inoremap <C-R><Space> <C-R>"
 
+" Open current file directory
 noremap <Leader>. :exec 'e '.expand('%:p:h')<CR>
-nmap <Leader>cr :%s/\r//g<CR>
-vmap <Leader>cr :s/\r//g<CR>
-
 
 " Command
 
